@@ -33,7 +33,7 @@ body{
   }
 #line{
   margin-top: 15px;
-  height: 20px;
+  height: 10px;
   background-color: #f1707d;
   border: dotted;
 }
@@ -178,22 +178,34 @@ img{
 }
 
 #ruleButton{
+  height: 50px;
+  width: 100px;
   background-color: #c86f67;
   color: floralwhite;
   border: none;
   padding: 10px 20px;
   font-size: 20px;
   position: absolute;
+  cursor: pointer;
   left: 0;
-  top: 480px;
+  top: 450px;
 }
 #fanishButton{
+  height: 50px;
+  width: 100px;
   background-color: #c86f67;
   color: floralwhite;
   border: none;
-  padding: 20px 10px;
+  padding: 10px 20px;
   font-size: 20px;
   position: absolute;
-  left: 740px;
-  top: 460px;
+  cursor: pointer;
+  left: 700px;
+  top: 450px;
+}
+#successMessage{
+  display:none;
+  color:#f1707d;
+  font-size:100px;
+  margin-bottom: 60px;
 }
